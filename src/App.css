@@ -169,7 +169,7 @@ background-color: orangered !important;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
+align-items: center;
   padding: 100px 20px;
   box-sizing: border-box;
 }
@@ -322,3 +322,70 @@ background-color: orangered !important;
     font-size: 14px;
   }
 }
+
+
+@media (max-width:850px) {
+     .hero-sec{
+      padding:0px 50px
+    }
+     .wrapper {
+  max-width: 100%;
+    }
+    .features-wrapper{
+      max-width: 100%;
+      padding:50px
+    }
+    .movie-card{
+      flex: 45%;
+          }
+          .movies-wrapper{
+            gap:30px
+          }
+          .flex-card-wrapper{
+            
+            
+          }
+
+        }
+        @media (max-width:1050px) {
+          .hero-sec{
+            padding:50px;
+           
+           
+          }
+          .wrapper{
+            max-width: 100%;
+            
+          }
+          .features-wrapper{
+            max-width: 100%;
+            padding: 50px
+          }
+          .movie-card{
+            flex: 30%;
+           }
+           .movies-wrapper{
+            gap:20px
+           }
+           .flex-card-wrapper{
+            display: flex;
+            flex-direction: row;
+            padding: 30px 50px;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 100%;
+           }
+            .flex-card-wrapper.reverse{
+            padding:30px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap:20px;
+             }
+             .flex-card-content{
+              flex:1
+             }
+             .flex-card-wrapper{
+              gap:30px;
+             }
+        }
