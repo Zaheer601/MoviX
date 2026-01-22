@@ -5,17 +5,17 @@ body {
 }
 .hero-sec {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   background-image: url("./assets/hero.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   padding-left: 150px;
-  padding-top: 150px;
+  
   align-items: center;
   box-sizing: border-box;
-  margin-top: -120px;
+ 
 }
 .hero-sec h1 {
   font-family: geom;
