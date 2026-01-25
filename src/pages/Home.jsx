@@ -34,13 +34,14 @@ function Home() {
     loadMovies();
   }, []);
 
+
   return (
     <>
       <Hero />
       <Features />
       <Movies>
-        {movies &&
-          movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
+       {movies && 
+          movies?.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
       </Movies>
       <FlexCard
         title="We’re Compatible."
